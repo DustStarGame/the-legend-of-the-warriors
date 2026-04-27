@@ -16,7 +16,7 @@ func _physics_process(delta: float) -> void:
 
     if is_on_floor() and Input.is_action_just_pressed("jump"):
         velocity.y = JUMP_VELOCITY
-
+    
     if is_on_floor():
         if is_zero_approx(direction):
             animation_player.play("idle")
