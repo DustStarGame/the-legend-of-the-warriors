@@ -1,6 +1,6 @@
 extends Node2D
 
-@onready var tile_map_layer : TileMapLayer = $Geometry
+@onready var tile_map_layer : TileMapLayer = $GeometryMap
 @onready var camera_2d : Camera2D = $Player/Camera2D
 
 func _ready() -> void:
